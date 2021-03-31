@@ -32,6 +32,7 @@
         <disruptor.version>3.3.7</disruptor.version>
         <atomikos.version>5.0.8</atomikos.version>
         <javax.transaction.version>1.1</javax.transaction.version>
+        <spark-excel.version>0.13.1</spark-excel.version>
     </properties>
 
 	<dependencies>
@@ -159,6 +160,11 @@
             <groupId>com.github.housepower</groupId>
             <artifactId>clickhouse-native-jdbc</artifactId>
             <version>2.3-stable-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.crealytics</groupId>
+            <artifactId>spark-excel_2.12</artifactId>
+            <version>${spark-excel.version}</version>
         </dependency>
     </dependencies>
 
